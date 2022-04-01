@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+em HTMl é idd em CSs é #
+em HTML é class em CSSS é .*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #027373c9;
+    width: 600px;
+    padding: 10%;
+    margin: auto;
+}
+h1{
+    color: rgb(52, 100, 84);
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(86, 136, 119);
+}
+h2{
+   color: rgb(46, 90, 75); 
+}
+
+.basico{
+    color: rgb(92, 179, 150); 
+}
+
+.intermediario{
+    color: rgb(180, 182, 74); 
+    font-weight: bolder;
+}
+.avançado{
+    color: rgba(197, 34, 34, 0.932); 
+}
+.destaque{
+    background-color: rgba(182, 157, 126, 0.527);
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'Love';
+            src: url('../EX-018/fontes/RomanticDates.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography
+                -)
+            */
+
+        }
+            body{
+                font-family: Arial, Helvetica, sans-serif
+            }
+            h1{
+                font-family: 'Love', times;
+                font-size: 3em;
+                font-weight: normal;
+            }
+            h2{
+                font-family: 'Love';
+                font-size: 2em;
+                font-weight: normal;
+                
+            }
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus a quos, rem numquam quia enim laborum odit soluta accusamus sapiente nisi, temporibus repudiandae? At voluptatum dignissimos iste voluptates id quia?</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores sapiente, ipsa ab illum corporis molestiae dolorum nulla debitis nihil laboriosam adipisci eaque. Enim voluptatum, dolore eligendi cumque animi quo?</p>
+</body>
+</html>
